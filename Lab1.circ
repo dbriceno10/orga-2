@@ -130,9 +130,8 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(550,790)" name="Pin">
+    <comp lib="0" loc="(390,750)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="facing" val="north"/>
       <a name="label" val="S"/>
     </comp>
     <comp lib="1" loc="(1120,420)" name="OR Gate"/>
@@ -147,9 +146,9 @@
     <wire from="(1120,420)" to="(1180,420)"/>
     <wire from="(380,320)" to="(790,320)"/>
     <wire from="(380,480)" to="(790,480)"/>
+    <wire from="(390,750)" to="(550,750)"/>
     <wire from="(550,520)" to="(550,750)"/>
     <wire from="(550,520)" to="(790,520)"/>
-    <wire from="(550,750)" to="(550,790)"/>
     <wire from="(550,750)" to="(650,750)"/>
     <wire from="(650,360)" to="(650,710)"/>
     <wire from="(650,360)" to="(790,360)"/>
