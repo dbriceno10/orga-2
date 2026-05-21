@@ -336,9 +336,8 @@
     <a name="circuit" val="ADD8"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(1020,430)" name="Pin">
+    <comp lib="0" loc="(1040,540)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="facing" val="south"/>
       <a name="label" val="Cin"/>
     </comp>
     <comp lib="0" loc="(1310,1290)" name="Pin">
@@ -400,8 +399,6 @@
     <wire from="(1020,1240)" to="(1020,1310)"/>
     <wire from="(1020,1240)" to="(1280,1240)"/>
     <wire from="(1020,1310)" to="(1050,1310)"/>
-    <wire from="(1020,430)" to="(1020,540)"/>
-    <wire from="(1020,540)" to="(1050,540)"/>
     <wire from="(1020,580)" to="(1020,650)"/>
     <wire from="(1020,580)" to="(1280,580)"/>
     <wire from="(1020,650)" to="(1050,650)"/>
@@ -414,6 +411,7 @@
     <wire from="(1020,910)" to="(1020,980)"/>
     <wire from="(1020,910)" to="(1280,910)"/>
     <wire from="(1020,980)" to="(1050,980)"/>
+    <wire from="(1040,540)" to="(1050,540)"/>
     <wire from="(1050,1310)" to="(1060,1310)"/>
     <wire from="(1270,1050)" to="(1390,1050)"/>
     <wire from="(1270,1070)" to="(1280,1070)"/>
