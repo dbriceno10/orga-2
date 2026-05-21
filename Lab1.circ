@@ -332,7 +332,7 @@
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="9" loc="(700,315)" name="Text">
+    <comp lib="9" loc="(1108,443)" name="Text">
       <a name="text" val="CIRCUITO ADD8"/>
     </comp>
     <comp loc="(1270,1050)" name="ADD1"/>
