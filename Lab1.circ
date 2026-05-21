@@ -116,150 +116,104 @@
     <a name="circuit" val="MUX2"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(250,1200)" name="Pin">
+    <comp lib="0" loc="(1180,420)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="facing" val="north"/>
-      <a name="label" val="C"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="R"/>
+      <a name="type" val="output"/>
     </comp>
-    <comp lib="0" loc="(80,730)" name="Pin">
+    <comp lib="0" loc="(380,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="A"/>
     </comp>
-    <comp lib="0" loc="(80,890)" name="Pin">
+    <comp lib="0" loc="(380,480)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(880,830)" name="Pin">
+    <comp lib="0" loc="(550,790)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
+      <a name="facing" val="north"/>
       <a name="label" val="S"/>
-      <a name="type" val="output"/>
     </comp>
-    <comp lib="1" loc="(350,1120)" name="NOT Gate">
+    <comp lib="1" loc="(1120,420)" name="OR Gate"/>
+    <comp lib="1" loc="(650,710)" name="NOT Gate">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="1" loc="(540,750)" name="AND Gate"/>
-    <comp lib="1" loc="(540,910)" name="AND Gate"/>
-    <comp lib="1" loc="(820,830)" name="OR Gate"/>
-    <comp lib="9" loc="(500,625)" name="Text">
+    <comp lib="1" loc="(840,340)" name="AND Gate"/>
+    <comp lib="1" loc="(840,500)" name="AND Gate"/>
+    <comp lib="9" loc="(800,215)" name="Text">
       <a name="text" val="CIRCUITO MUX2"/>
     </comp>
-    <wire from="(250,1160)" to="(250,1200)"/>
-    <wire from="(250,1160)" to="(350,1160)"/>
-    <wire from="(250,930)" to="(250,1160)"/>
-    <wire from="(250,930)" to="(490,930)"/>
-    <wire from="(350,1150)" to="(350,1160)"/>
-    <wire from="(350,770)" to="(350,1120)"/>
-    <wire from="(350,770)" to="(490,770)"/>
-    <wire from="(540,750)" to="(620,750)"/>
-    <wire from="(540,910)" to="(620,910)"/>
-    <wire from="(620,750)" to="(620,810)"/>
-    <wire from="(620,810)" to="(770,810)"/>
-    <wire from="(620,850)" to="(620,910)"/>
-    <wire from="(620,850)" to="(770,850)"/>
-    <wire from="(80,730)" to="(490,730)"/>
-    <wire from="(80,890)" to="(490,890)"/>
-    <wire from="(820,830)" to="(880,830)"/>
+    <wire from="(1120,420)" to="(1180,420)"/>
+    <wire from="(380,320)" to="(790,320)"/>
+    <wire from="(380,480)" to="(790,480)"/>
+    <wire from="(550,520)" to="(550,750)"/>
+    <wire from="(550,520)" to="(790,520)"/>
+    <wire from="(550,750)" to="(550,790)"/>
+    <wire from="(550,750)" to="(650,750)"/>
+    <wire from="(650,360)" to="(650,710)"/>
+    <wire from="(650,360)" to="(790,360)"/>
+    <wire from="(650,740)" to="(650,750)"/>
+    <wire from="(840,340)" to="(920,340)"/>
+    <wire from="(840,500)" to="(920,500)"/>
+    <wire from="(920,340)" to="(920,400)"/>
+    <wire from="(920,400)" to="(1070,400)"/>
+    <wire from="(920,440)" to="(1070,440)"/>
+    <wire from="(920,440)" to="(920,500)"/>
   </circuit>
   <circuit name="MUX4">
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="MUX4"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(1610,320)" name="Pin">
+    <comp lib="0" loc="(230,600)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
+      <a name="label" val="S"/>
+      <a name="width" val="2"/>
     </comp>
-    <comp lib="0" loc="(1610,440)" name="Pin">
+    <comp lib="0" loc="(230,600)" name="Splitter"/>
+    <comp lib="0" loc="(420,220)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="B"/>
+      <a name="label" val="I0"/>
     </comp>
-    <comp lib="0" loc="(1610,550)" name="Pin">
+    <comp lib="0" loc="(420,240)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="C"/>
+      <a name="label" val="I1"/>
     </comp>
-    <comp lib="0" loc="(1610,670)" name="Pin">
+    <comp lib="0" loc="(420,430)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="D"/>
+      <a name="label" val="I2"/>
     </comp>
-    <comp lib="0" loc="(1720,190)" name="Pin">
+    <comp lib="0" loc="(420,450)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="facing" val="south"/>
-      <a name="label" val="C0"/>
+      <a name="label" val="I3"/>
     </comp>
-    <comp lib="0" loc="(1900,190)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="south"/>
-      <a name="label" val="C1"/>
-    </comp>
-    <comp lib="0" loc="(2420,510)" name="Pin">
+    <comp lib="0" loc="(990,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
-      <a name="label" val="S"/>
+      <a name="label" val="R"/>
       <a name="type" val="output"/>
     </comp>
-    <comp lib="1" loc="(1820,220)" name="NOT Gate"/>
-    <comp lib="1" loc="(2000,220)" name="NOT Gate"/>
-    <comp lib="1" loc="(2190,340)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(2190,460)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(2190,570)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(2190,690)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(2400,510)" name="OR Gate">
-      <a name="inputs" val="4"/>
-      <a name="size" val="70"/>
-    </comp>
-    <comp lib="9" loc="(1805,80)" name="Text">
+    <comp lib="9" loc="(637,107)" name="Text">
       <a name="text" val="CIRCUITO MUX4"/>
     </comp>
-    <wire from="(1610,320)" to="(2140,320)"/>
-    <wire from="(1610,440)" to="(2140,440)"/>
-    <wire from="(1610,550)" to="(2140,550)"/>
-    <wire from="(1610,670)" to="(2140,670)"/>
-    <wire from="(1720,190)" to="(1720,220)"/>
-    <wire from="(1720,220)" to="(1720,570)"/>
-    <wire from="(1720,220)" to="(1790,220)"/>
-    <wire from="(1720,570)" to="(1720,690)"/>
-    <wire from="(1720,570)" to="(2140,570)"/>
-    <wire from="(1720,690)" to="(1720,740)"/>
-    <wire from="(1720,690)" to="(2140,690)"/>
-    <wire from="(1820,220)" to="(1820,340)"/>
-    <wire from="(1820,340)" to="(1820,460)"/>
-    <wire from="(1820,340)" to="(2140,340)"/>
-    <wire from="(1820,460)" to="(1820,740)"/>
-    <wire from="(1820,460)" to="(2140,460)"/>
-    <wire from="(1900,190)" to="(1900,220)"/>
-    <wire from="(1900,220)" to="(1900,480)"/>
-    <wire from="(1900,220)" to="(1970,220)"/>
-    <wire from="(1900,480)" to="(1900,710)"/>
-    <wire from="(1900,480)" to="(2140,480)"/>
-    <wire from="(1900,710)" to="(1900,740)"/>
-    <wire from="(1900,710)" to="(2140,710)"/>
-    <wire from="(2000,220)" to="(2000,360)"/>
-    <wire from="(2000,360)" to="(2000,590)"/>
-    <wire from="(2000,360)" to="(2140,360)"/>
-    <wire from="(2000,590)" to="(2000,740)"/>
-    <wire from="(2000,590)" to="(2140,590)"/>
-    <wire from="(2190,340)" to="(2250,340)"/>
-    <wire from="(2190,460)" to="(2230,460)"/>
-    <wire from="(2190,570)" to="(2230,570)"/>
-    <wire from="(2190,690)" to="(2250,690)"/>
-    <wire from="(2230,460)" to="(2230,500)"/>
-    <wire from="(2230,500)" to="(2330,500)"/>
-    <wire from="(2230,520)" to="(2230,570)"/>
-    <wire from="(2230,520)" to="(2330,520)"/>
-    <wire from="(2250,340)" to="(2250,480)"/>
-    <wire from="(2250,480)" to="(2330,480)"/>
-    <wire from="(2250,540)" to="(2250,690)"/>
-    <wire from="(2250,540)" to="(2330,540)"/>
-    <wire from="(2400,510)" to="(2420,510)"/>
+    <comp loc="(640,220)" name="MUX2"/>
+    <comp loc="(640,430)" name="MUX2"/>
+    <comp loc="(990,320)" name="MUX2"/>
+    <wire from="(250,580)" to="(260,580)"/>
+    <wire from="(250,590)" to="(760,590)"/>
+    <wire from="(260,260)" to="(260,470)"/>
+    <wire from="(260,260)" to="(420,260)"/>
+    <wire from="(260,470)" to="(260,580)"/>
+    <wire from="(260,470)" to="(420,470)"/>
+    <wire from="(640,220)" to="(710,220)"/>
+    <wire from="(640,430)" to="(710,430)"/>
+    <wire from="(710,220)" to="(710,320)"/>
+    <wire from="(710,320)" to="(770,320)"/>
+    <wire from="(710,340)" to="(710,430)"/>
+    <wire from="(710,340)" to="(770,340)"/>
+    <wire from="(760,360)" to="(760,590)"/>
+    <wire from="(760,360)" to="(770,360)"/>
   </circuit>
   <circuit name="ADD1">
     <a name="appearance" val="logisim_evolution"/>
@@ -636,61 +590,59 @@
     <a name="circuit" val="MUX4de8bits"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(1330,240)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="A"/>
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="0" loc="(1330,260)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="B"/>
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="0" loc="(1330,450)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="C"/>
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="0" loc="(1330,470)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="label" val="D"/>
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="0" loc="(1350,760)" name="Pin">
+    <comp lib="0" loc="(1070,580)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="C0"/>
       <a name="width" val="2"/>
     </comp>
-    <comp lib="0" loc="(1350,760)" name="Splitter"/>
-    <comp lib="0" loc="(1900,340)" name="Pin">
+    <comp lib="0" loc="(1070,580)" name="Splitter"/>
+    <comp lib="0" loc="(1260,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1260,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="B"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1260,410)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="C"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1260,430)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1830,300)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="S"/>
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="9" loc="(1805,80)" name="Text">
+    <comp lib="9" loc="(1391,95)" name="Text">
       <a name="text" val="CIRCUITO MUX4 CON SALIDA DE 8 BITS"/>
     </comp>
-    <comp loc="(1550,240)" name="MUX2de8bits"/>
-    <comp loc="(1550,450)" name="MUX2de8bits"/>
-    <comp loc="(1900,340)" name="MUX2de8bits"/>
-    <wire from="(1170,280)" to="(1170,580)"/>
-    <wire from="(1170,280)" to="(1330,280)"/>
-    <wire from="(1170,580)" to="(1330,580)"/>
-    <wire from="(1330,490)" to="(1330,580)"/>
-    <wire from="(1330,580)" to="(1380,580)"/>
-    <wire from="(1370,740)" to="(1380,740)"/>
-    <wire from="(1370,750)" to="(1680,750)"/>
-    <wire from="(1380,580)" to="(1380,740)"/>
-    <wire from="(1550,240)" to="(1620,240)"/>
-    <wire from="(1550,450)" to="(1620,450)"/>
-    <wire from="(1620,240)" to="(1620,340)"/>
-    <wire from="(1620,340)" to="(1680,340)"/>
-    <wire from="(1620,360)" to="(1620,450)"/>
-    <wire from="(1620,360)" to="(1680,360)"/>
-    <wire from="(1680,360)" to="(1690,360)"/>
-    <wire from="(1680,380)" to="(1680,750)"/>
+    <comp loc="(1480,200)" name="MUX2de8bits"/>
+    <comp loc="(1480,410)" name="MUX2de8bits"/>
+    <comp loc="(1830,300)" name="MUX2de8bits"/>
+    <wire from="(1090,560)" to="(1100,560)"/>
+    <wire from="(1090,570)" to="(1600,570)"/>
+    <wire from="(1100,240)" to="(1100,450)"/>
+    <wire from="(1100,240)" to="(1260,240)"/>
+    <wire from="(1100,450)" to="(1100,560)"/>
+    <wire from="(1100,450)" to="(1260,450)"/>
+    <wire from="(1480,200)" to="(1550,200)"/>
+    <wire from="(1480,410)" to="(1550,410)"/>
+    <wire from="(1550,200)" to="(1550,300)"/>
+    <wire from="(1550,300)" to="(1610,300)"/>
+    <wire from="(1550,320)" to="(1550,410)"/>
+    <wire from="(1550,320)" to="(1610,320)"/>
+    <wire from="(1600,340)" to="(1600,570)"/>
+    <wire from="(1600,340)" to="(1610,340)"/>
   </circuit>
   <circuit name="MUX2de8bits">
     <a name="appearance" val="logisim_evolution"/>
