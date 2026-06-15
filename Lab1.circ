@@ -193,7 +193,7 @@
       <a name="label" val="R"/>
       <a name="type" val="output"/>
     </comp>
-    <comp lib="9" loc="(637,107)" name="Text">
+    <comp lib="9" loc="(635,105)" name="Text">
       <a name="text" val="CIRCUITO MUX4"/>
     </comp>
     <comp loc="(640,220)" name="MUX2"/>
@@ -332,7 +332,7 @@
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="9" loc="(1108,443)" name="Text">
+    <comp lib="9" loc="(1105,440)" name="Text">
       <a name="text" val="CIRCUITO ADD8"/>
     </comp>
     <comp loc="(1270,1050)" name="ADD1"/>
@@ -624,7 +624,7 @@
       <a name="type" val="output"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="9" loc="(1391,95)" name="Text">
+    <comp lib="9" loc="(1390,95)" name="Text">
       <a name="text" val="CIRCUITO MUX4 CON SALIDA DE 8 BITS"/>
     </comp>
     <comp loc="(1480,200)" name="MUX2de8bits"/>
@@ -730,5 +730,219 @@
     <wire from="(670,300)" to="(670,360)"/>
     <wire from="(670,300)" to="(820,300)"/>
     <wire from="(870,280)" to="(930,280)"/>
+  </circuit>
+  <circuit name="RSLatch">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="RSLatch"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(340,230)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="R"/>
+    </comp>
+    <comp lib="0" loc="(340,400)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="S"/>
+    </comp>
+    <comp lib="0" loc="(670,250)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(670,380)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="NQ"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="1" loc="(560,250)" name="NOR Gate"/>
+    <comp lib="1" loc="(560,380)" name="NOR Gate"/>
+    <wire from="(340,230)" to="(500,230)"/>
+    <wire from="(340,400)" to="(500,400)"/>
+    <wire from="(440,270)" to="(440,340)"/>
+    <wire from="(440,270)" to="(500,270)"/>
+    <wire from="(440,340)" to="(630,340)"/>
+    <wire from="(470,300)" to="(470,360)"/>
+    <wire from="(470,300)" to="(630,300)"/>
+    <wire from="(470,360)" to="(500,360)"/>
+    <wire from="(560,250)" to="(630,250)"/>
+    <wire from="(560,380)" to="(630,380)"/>
+    <wire from="(630,250)" to="(630,300)"/>
+    <wire from="(630,250)" to="(670,250)"/>
+    <wire from="(630,340)" to="(630,380)"/>
+    <wire from="(630,380)" to="(670,380)"/>
+  </circuit>
+  <circuit name="CrossCoupedInverterPair">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="CrossCoupedInverterPair"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(430,150)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(430,250)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="1" loc="(310,150)" name="NOT Gate"/>
+    <comp lib="1" loc="(310,250)" name="NOT Gate"/>
+    <wire from="(230,180)" to="(230,250)"/>
+    <wire from="(230,180)" to="(330,180)"/>
+    <wire from="(230,250)" to="(280,250)"/>
+    <wire from="(250,150)" to="(250,220)"/>
+    <wire from="(250,150)" to="(280,150)"/>
+    <wire from="(250,220)" to="(350,220)"/>
+    <wire from="(310,150)" to="(330,150)"/>
+    <wire from="(310,250)" to="(350,250)"/>
+    <wire from="(330,150)" to="(330,180)"/>
+    <wire from="(330,150)" to="(430,150)"/>
+    <wire from="(350,220)" to="(350,250)"/>
+    <wire from="(350,250)" to="(430,250)"/>
+  </circuit>
+  <circuit name="DLatch">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="DLatch"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(780,270)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(780,300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="NQ"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(80,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(90,390)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D"/>
+    </comp>
+    <comp lib="1" loc="(310,220)" name="NOT Gate"/>
+    <comp lib="1" loc="(420,200)" name="AND Gate"/>
+    <comp lib="1" loc="(420,370)" name="AND Gate"/>
+    <comp loc="(730,270)" name="RSLatch"/>
+    <wire from="(160,180)" to="(160,350)"/>
+    <wire from="(160,180)" to="(370,180)"/>
+    <wire from="(160,350)" to="(370,350)"/>
+    <wire from="(240,220)" to="(240,390)"/>
+    <wire from="(240,220)" to="(280,220)"/>
+    <wire from="(240,390)" to="(370,390)"/>
+    <wire from="(310,220)" to="(370,220)"/>
+    <wire from="(420,200)" to="(470,200)"/>
+    <wire from="(420,370)" to="(470,370)"/>
+    <wire from="(470,200)" to="(470,270)"/>
+    <wire from="(470,270)" to="(510,270)"/>
+    <wire from="(470,290)" to="(470,370)"/>
+    <wire from="(470,290)" to="(510,290)"/>
+    <wire from="(730,270)" to="(780,270)"/>
+    <wire from="(730,290)" to="(770,290)"/>
+    <wire from="(770,290)" to="(770,300)"/>
+    <wire from="(770,300)" to="(780,300)"/>
+    <wire from="(80,180)" to="(160,180)"/>
+    <wire from="(90,390)" to="(240,390)"/>
+  </circuit>
+  <circuit name="DFlipFlop">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="DFlipFlop"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(170,250)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(170,280)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D"/>
+    </comp>
+    <comp lib="0" loc="(950,260)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(950,300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="NQ"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="1" loc="(520,100)" name="NOT Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp loc="(510,260)" name="DLatch"/>
+    <comp loc="(880,260)" name="DLatch"/>
+    <wire from="(170,250)" to="(180,250)"/>
+    <wire from="(170,280)" to="(290,280)"/>
+    <wire from="(180,60)" to="(180,250)"/>
+    <wire from="(180,60)" to="(600,60)"/>
+    <wire from="(250,100)" to="(250,260)"/>
+    <wire from="(250,100)" to="(520,100)"/>
+    <wire from="(250,260)" to="(290,260)"/>
+    <wire from="(510,260)" to="(580,260)"/>
+    <wire from="(550,100)" to="(600,100)"/>
+    <wire from="(580,260)" to="(580,280)"/>
+    <wire from="(580,280)" to="(660,280)"/>
+    <wire from="(600,100)" to="(600,260)"/>
+    <wire from="(600,260)" to="(660,260)"/>
+    <wire from="(600,60)" to="(600,100)"/>
+    <wire from="(880,260)" to="(950,260)"/>
+    <wire from="(880,280)" to="(930,280)"/>
+    <wire from="(930,280)" to="(930,300)"/>
+    <wire from="(930,300)" to="(950,300)"/>
+  </circuit>
+  <circuit name="FlipFlopEnabled">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="FlipFlopEnabled"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(180,300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(180,340)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="EN"/>
+    </comp>
+    <comp lib="0" loc="(180,400)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="D"/>
+    </comp>
+    <comp lib="0" loc="(770,330)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(770,380)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="NQ"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="1" loc="(330,320)" name="AND Gate"/>
+    <comp loc="(680,330)" name="DFlipFlop"/>
+    <wire from="(180,300)" to="(280,300)"/>
+    <wire from="(180,340)" to="(280,340)"/>
+    <wire from="(180,400)" to="(410,400)"/>
+    <wire from="(330,320)" to="(430,320)"/>
+    <wire from="(410,350)" to="(410,400)"/>
+    <wire from="(410,350)" to="(460,350)"/>
+    <wire from="(430,320)" to="(430,330)"/>
+    <wire from="(430,330)" to="(460,330)"/>
+    <wire from="(680,330)" to="(770,330)"/>
+    <wire from="(680,350)" to="(750,350)"/>
+    <wire from="(750,350)" to="(750,380)"/>
+    <wire from="(750,380)" to="(770,380)"/>
   </circuit>
 </project>
